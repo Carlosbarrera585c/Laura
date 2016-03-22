@@ -1,0 +1,351 @@
+all:
+  favicon: hola.ico
+  title: titulo de la p‡gina general
+  meta:
+    - charset="UTF-8"
+    - http-equiv="X-UA-Compatible" content="IE=edge"
+  javascript:
+    - jquery-1.11.1.min.js
+    - bootstrap.min.js
+    - main.js
+    - jqPlot/jquery.min.js
+    - jqPlot/jquery.jqplot.min.js
+    - jqPlot/plugins/jqplot.canvasTextRenderer.min.js
+    - jqPlot/plugins/jqplot.canvasTextRenderer.js
+    - jqPlot/plugins/jqplot.canvasAxisLabelRenderer.min.js
+    - jqPlot/plugins/jqplot.dateAxisRenderer.js
+    - jqPlot/plugins/jqplot.barRenderer.min.js
+    - jqPlot/plugins/jqplot.pieRenderer.js
+    - jqPlot/plugins/jqplot.categoryAxisRenderer.js
+    - jqPlot/plugins/jqplot.pointLabels.js
+    - jqPlot/plugins/jqplot.logAxisRenderer.min.js
+    - jqPlot/plugins/jqplot.canvasAxisTickRenderer.min.js
+
+  stylesheet:
+    - bootstrap.css
+    - main.css
+    - font-awesome.min.css
+    - jquery.jqplot.min.css
+shfSecurity:
+  index:
+    title: Identificación de Usuario
+    stylesheet:
+      - bootstrap.css
+      - main.css
+      - signin.css
+      - full-width-pics.css
+  noPermission:
+    stylesheet:
+      - signin.css
+
+usuario:
+  index:
+    javascript:
+      - index.js
+
+tipoEmpaque:
+  index:
+    title: Tipo Empaque
+    javascript:
+      - index.js
+  edit:
+    title: Editar Tipo Empaque
+
+  view:
+    title: Ver Tipo Empaque
+
+credencial:
+  index:
+    title: Credencial
+    javascript:
+      - index.js
+  edit:
+    title: Editar Credencial
+
+  view:
+    title: Ver Credenciales
+
+tipoId:
+  index:
+    title: Tipo Id
+    javascript:
+      - index.js
+  edit:
+    title: Editar Tipo Identificacion
+
+  view:
+    title: Ver Tipo Identificacion
+
+empleado:
+  index:
+    title: Empleado
+    javascript:
+      - index.js
+  edit:
+    title: Editar Empleado
+
+  view:
+    title: Ver Empleado
+
+jugo:
+  index:
+    title: Jugo
+    javascript:
+      - index.js
+  edit:
+    title: Editar Jugo
+
+  view:
+    title: Ver Jugo
+
+ciudad:
+  index:
+    title: Ciudad
+    javascript:
+      - index.js
+  edit:
+    title: Editar Ciudad
+
+  view:
+    title: Ver Ciudad
+
+tipoPago:
+  index:
+    title: Tipo Pago
+    javascript:
+      - index.js
+  edit:
+    title: Editar Tipo Pago
+
+  view:
+    title: Ver Tipo Pago
+
+pagoTrabajadores:
+  index:
+    title: Pago de Trabajadores
+    javascript:
+      - index.js
+  edit:
+    title: Editar Pago de Trabajadores
+
+  view:
+    title: Ver Pago de Trabajadores
+
+
+entradaBodega:
+  index:
+    title: Entrada de Bodega
+    javascript:
+      - index.js
+  edit:
+    title: Editar Entrada de Bodega
+
+  view:
+    title: Ver Entrada de Bodega
+
+salidaBodega:
+  index:
+    title: Salida de Bodega
+    javascript:
+      - index.js
+  edit:
+    title: Editar Salida de Bodega
+
+  view:
+    title: Ver Salida de Bodega
+
+tipoInsumo:
+  index:
+    title: Tipo Insumo
+    javascript:
+      - index.js
+  edit:
+    title: Editar Tipo Insumo
+
+  view:
+    title: Ver Tipo Insumo
+
+proveedor:
+  index:
+    title: Proveedor
+    javascript:
+      - index.js
+  edit:
+    title: Editar Proveedor
+
+  view:
+    title: Ver Proveedor
+
+tipoDoc:
+  index:
+    title: Tipo Documento
+    javascript:
+      - index.js
+  edit:
+    title: Editar Tipo Documento
+
+  view:
+    title: Ver Tipo Documento
+
+detalleEntrada:
+  index:
+    title: Detalle Entrada
+    javascript:
+      - index.js
+  edit:
+    title: Editar Detalle Entrada
+
+  view:
+    title: Ver Detalle Entrada
+    javascript:
+      - index.js
+
+detalleSalida:
+  index:
+    title: Detalle Salida
+    javascript:
+      - index.js
+  edit:
+    title: Editar Detalle Salida
+
+  view:
+    title: Ver Detalle Salida
+    javascript:
+      - index.js
+
+empresa:
+  index:
+    title: Empresa
+    javascript:
+      - index.js
+  edit:
+    title: Editar Empresa
+
+  view:
+    title: Ver Empresa
+
+insumo:
+  index:
+    title: insumo
+    javascript:
+      - index.js
+  edit:
+    title: Editar insumo
+
+  view:
+    title: Ver insumo
+
+empaque:
+  index:
+    title: Empaque
+    javascript:
+      - index.js
+  edit:
+    title: Editar Empaque
+  view:
+    title: Ver Empaque
+
+controlCalidad:
+  index:
+    title: control Calidad
+    javascript:
+      - index.js
+  edit:
+    title: Editar control calidad
+  view:
+    title: Ver control calidad
+
+ingresoCana:
+  index:
+    title: Ingreso Caña
+    javascript:
+      - index.js
+
+mieles:
+  index:
+    title: Registro de Mieles
+    javascript:
+      - index.js
+  insert:
+    title: Nueva Miel
+
+  edit:
+    title: Editar Miel
+
+  view:
+    title: Ver Miel
+
+aguas:
+  index:
+    title: Aguas
+    javascript:
+      - index.js
+  insert:
+    title: Nueva Aguas
+
+  edit:
+    title: Editar Aguas
+
+  view:
+    title: Ver Aguas
+
+cachaza:
+  index:
+    title: Cachaza
+    javascript:
+      - index.js
+  insert:
+      title: Nueva Cachaza
+
+  edit:
+    title: Editar Cachaza
+
+  view:
+    title: Ver Cachaza
+
+  edit:
+    title: Editar ingreso Caña
+
+  view:
+    title: Ver Ingreso Caña
+
+bagazo:
+  index:
+    title: Bagazo
+    javascript:
+      - index.js
+
+  insert:
+    title: Nuevo Bagazo
+
+  edit:
+    title: Editar Bagazo
+
+  view:
+    title: Ver Bagazo
+panela:
+  index:
+    title: panela
+    javascript:
+      - index.js
+
+  insert:
+    title: Nueva panela
+
+  edit:
+    title: Editar Panela
+
+  view:
+    title: Ver Panela
+    
+clarificacion:
+  index:
+    title: Clarificacion
+    javascript:
+      - index.js
+  insert:
+    title: Nuevo
+  edit:
+    title: Edicion
+  view:
+    title: Ver Clarificacion

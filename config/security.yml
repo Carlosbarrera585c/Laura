@@ -1,0 +1,228 @@
+shfSecurity:
+  index:
+    security: false
+  login:
+    security: false
+  logout:
+    security: true
+  noPermission:
+    security: false
+  exception:
+    security: false
+
+usuario:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+    
+controlCalidad:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+
+jugo:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+
+entradaBodega:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor, cristian]
+  insert:
+    security: true
+  create:
+    security: true
+    
+salidaBodega:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true        
+        
+detalleEntrada:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor, cristian]
+  insert:
+    security: true
+  create:
+    security: true
+    
+insumo:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+    
+tipoInsumo:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+     
+empleado:
+  index:
+    security: true
+    credentials:
+        - [admin, consultor]
+  insert:
+    security: true
+    credentials:
+      - [admin]
+  create:
+    security: true
+    credentials:
+      - [admin]
+  delete:
+    security: true
+    credentials:
+      - [admin]
+    
+credencial:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+  delete:
+    security: true
+    
+tipoId:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+  delete:
+    security: true
+    
+empaque:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+  delete:
+    security: true
+
+pagoTrabajadores:
+  index:
+    security: true
+    credencial:
+      -[admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+  delete:
+    security: true
+    
+ingresoCana:
+  index:
+    security: true
+    credencial:
+      -[admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+  delete:
+    security: true
+    
+mieles:
+  index:
+    security: true
+    credencial:
+      -[admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+  delete:
+
+aguas:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+    
+cachaza:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+
+bagazo:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+    
+panela:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
+
+clarificacion:
+  index:
+    security: true
+    credentials:
+      - [admin, consultor]
+  insert:
+    security: true
+  create:
+    security: true
